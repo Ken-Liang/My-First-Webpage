@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+  :host {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #A7AED3;
+    color: white;
+    font-weight: 600;
+    justify-content: center;
+  }
+
+  h1 {
+    height:20px;
+    color: black;
+  }
+
+  .navSubtitle{
+    text-align: center;
+    color: black;
+    padding-bottom: 25px;
+    padding-top: 7px;
+    font-family: "Poppins", sans-serif;
+    font-style:italic;
+  }
+
+  .spacer{
+    height:50px;
+  }
+
+  .landscape{
+    background-image: url("../assets/images/Landscape.jpg");
+    height: 0;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 37.5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:80%;
+  }
+
+  .subtitle{
+    text-align: center;
+    color: black;
+    padding-top:95px;
+    font-size:3em;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+  
+  .column{
+    float:left;
+    width: 50%;
+    height: 750px;
+  }
+  
+  .self{
+    background-image: url("../assets/images/profile.JPG");
+    height: 0;
+    width: 100%;
+    padding-bottom: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:50%;
+  }
+
+  .row:after{
+    content: "";
+    display:table;
+    clear: both;
+  }
+
+  .about_me{
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+    font-style: italic;
+    font-size:2.8em;
+  }
+
+  .bio{
+    color: white;
+    line-height: 50px;
+    padding: 50px;
+    font-size: 1.4em;
+    letter-spacing: 0.05em;
+  }
+
+  h3{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  h4{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 2.5em;
+  }
+
+  section {
+    display: table;
+    margin: 20px;
+  }
+  
+  .button-row {
+    display: table-cell;
+  }
+  
+  .button-row button {
+    display: table-cell;
+    margin-right: auto;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+  }
+  
+  .button-container {
+    display:inline-flex;
+    justify-content: center;
+    width: auto;
+  }
+
+  .link{
+    padding: 20px;
+    margin-right: 20px;
+    padding-right: 300px;
+    font-size:1.5em;
+  }
+
+  .link:hover{
+    opacity:50%;
+  }
+
+  @media screen and (max-width: 600px){
+    .column{ 
+      width:100%;
+      height: 100%;
+    }
+  }
